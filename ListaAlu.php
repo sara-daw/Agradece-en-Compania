@@ -7,7 +7,7 @@
     }
     function consultar(){
         $conexion = conectar();
-        $sql = "SELECT * FROM alumnos";
+        $sql = "SELECT IdAlu, nombre FROM alumnos";
         $resultado = $conexion->query($sql);
         // $total_filas = $resultado->num_rows;
         while($fila = $resultado->fetch_array()){
