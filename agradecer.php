@@ -33,7 +33,7 @@
 
 <div class="container">
     <div class="fondoaux2">
-        <form action="OptionDinamico.php" method="POST">
+        <form action="agradecer.php" method="POST">
             <label>Para:</label>
             <select name="destino">
                 <?php
