@@ -1,8 +1,5 @@
 <?php
     session_start();
-    if($_SESSION["IdAlu"] != null){
-        header("Location: CerrarSesion.php");
-    }
     function conectar(){
         $conexion = new mysqli(SERVIDOR, USUARIO, PASSWORD, BASEDEDATOS);
         $conexion->set_charset("utf8");
